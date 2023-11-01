@@ -1,5 +1,6 @@
-// import React from 'react'
+import { Link } from "react-router-dom";
 
+// import React from 'react'
 const Nav = () => {
   return (
     <>
@@ -8,16 +9,16 @@ const Nav = () => {
           <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
         </div>
         <div className="flex-none">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a href="">home</a>
-            </li>
-            <li>
+          <ul className="menu menu-horizontal px-1 gap-5">
+            <Link to="/">
+              <a href="/">Home</a>
+            </Link>
+            <Link to="about">
               <a href="">About</a>
-            </li>
-            <li>
+            </Link>
+            <Link to="contact">
               <a href="">Contact</a>
-            </li>
+            </Link>
           </ul>
         </div>
       </div>
