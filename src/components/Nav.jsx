@@ -19,6 +19,9 @@ const Nav = () => {
             <Link to="contact">
               <a href="">Contact</a>
             </Link>
+            <Link to="card">
+              <a href="">Cards</a>
+            </Link>
           </ul>
         </div>
       </div>

@@ -1,13 +1,13 @@
 import { Cd, Shoes, Siperman } from "./assets/images";
 export const services = [
   {
-    id: 3,
+    id: 1,
     imgURL: Cd,
     label: "Free shipping",
     subtext: "Enjoy seamless shopping with our complimentary shipping service.",
   },
   {
-    id: 3,
+    id: 2,
     imgURL: Shoes,
     label: "Secure Payment",
     subtext:
